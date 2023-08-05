@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Facebook and Google Automation Suite">
+	<parameter name="myBrowser" value="chrome" />
+	
+    <test name="Facebook and Google Automation Test">
+		<parameter name="myBrowser" value="chrome" />
+		<classes>
+			<class name="danielTest">
+				<methods>
+					<include name="testAutomation"></include>
+				</methods>
+			</class>
+		</classes>
+        
+    </test>
+    
+</suite>
